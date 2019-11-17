@@ -54,18 +54,18 @@ export class Tab1Page implements OnInit {
     toast.present();
   }
 
-  submit(id){
-    this.data.splice(id, 1)
-    //this.item = this.data.find(id, this.data);
-    //console.log("Data bag ", item);
-    //console.log("Data id ", this.item);
+  // submit(id){
+  //   this.data.splice(id, 1)
+  //   //this.item = this.data.find(id, this.data);
+  //   //console.log("Data bag ", item);
+  //   //console.log("Data id ", this.item);
 
-    // let navigationExtras: NavigationExtras = {
-    //   state : {
-    //     item: item
-    //   }
-    // }
+  //   // let navigationExtras: NavigationExtras = {
+  //   //   state : {
+  //   //     item: item
+  //   //   }
+  //   // }
     
-  }
+  // }
 
 }
